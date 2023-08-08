@@ -1,0 +1,11 @@
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\bin\Debug\netcoreapp2.1\Hello_World.deps.json
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\bin\Debug\netcoreapp2.1\Hello_World.runtimeconfig.json
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\bin\Debug\netcoreapp2.1\Hello_World.runtimeconfig.dev.json
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\bin\Debug\netcoreapp2.1\Hello_World.dll
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\bin\Debug\netcoreapp2.1\Hello_World.pdb
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\obj\Debug\netcoreapp2.1\Hello_World.csprojAssemblyReference.cache
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\obj\Debug\netcoreapp2.1\Hello_World.csproj.CoreCompileInputs.cache
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\obj\Debug\netcoreapp2.1\Hello_World.AssemblyInfoInputs.cache
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\obj\Debug\netcoreapp2.1\Hello_World.AssemblyInfo.cs
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\obj\Debug\netcoreapp2.1\Hello_World.dll
+C:\Users\nekogamisama\Desktop\VisualStudio\C#\Hello_World\obj\Debug\netcoreapp2.1\Hello_World.pdb
