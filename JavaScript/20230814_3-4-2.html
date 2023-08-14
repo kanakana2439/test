@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>トライキャッチ文</title>
+</head>
+
+<body>
+    <p><input type="button" value="(*^-^*)" onclick="copy(this.value);">
+    </p>
+
+    <script type="text/javascript">
+        function copy(s){
+            try{
+                window.ClipboardData.setData("Text",s);
+            }catch(e){
+                alert("このブラウザーではコピーできません");
+            }
+        }
+    </script>
+</body>
+
+</html>
