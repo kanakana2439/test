@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>test</title>
+    </head>
+    <body>
+        <p>ボタンをクリックしてください:</p>
+        <p><input type="button" value="Click me!"
+        onclick="hello()"></p>
+
+        <script>
+            function hello(){
+                var mywin = window.open("","win1","width=300,height=200,resizable=no,status=no");
+
+                mywin.document.open();
+                mywin.document.write("<p>こんにちは！<\/p>");
+                mywin.document.close();
+                mywin.focus();
+            }
+        </script>
+    </body>
+</html>

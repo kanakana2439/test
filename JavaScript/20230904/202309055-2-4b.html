@@ -1,0 +1,38 @@
+<html>
+    <body>
+        <p><input type="button" value="クッキーに保存"
+            onclick="setCookie()"></p>
+        <p><input type="button" value="クッキーから読みだし"
+            onclick="getCookie()"></p>
+<script>
+    function setCookie(){
+        var data1 = "ミケ";
+        var data2 = "ポチ";
+        var d = new Date();
+        d.setTime(d.getTime() + (1000*60*60*24*30));
+        var expires = d.toGMTString();
+
+        document.cookie = "data1=" + escape(data1) + "; "
+                        + "expires=" + expires;
+        document.cookie = "data2=" + escape(data2) + "; "
+                        + "expires=" + expires;
+        alert("data1は" + data1 + "data2は" + data2 +"、を保存しました。");
+
+   
+   }
+
+   function getCookie(){
+    var nameandvalues = document.cookie.split(";");
+   for(i = 0 ; i <nameandvalues.length; i++){
+    var nandv = nameandvalues[i].split("=");
+    if(nandv[0] == "data1")
+        var data1 = unescape(nandv[1]);
+    else if(nandv[0] == "data2")
+        var data2 = unescape(nandv[1]);
+    }
+    alert("data1は" + data1 + ",data2は" + data2);
+   
+   }
+</script>
+    </body>
+</html>

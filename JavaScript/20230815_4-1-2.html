@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript</title>
+        
+        <script type="text/javascript">
+            var y =1;
+            var book1 = new Object();
+            var cats = ["ミケ","トラ","クロ"];
+            book1.a = function loop(){
+
+                for(var i = 1; i<=5; i++){
+                    document.write(i +"回目  ");
+                    document.write(y +"回目  ");
+                    y++;
+                    document.write(cats[i-1] +"回目<br>");
+                }
+            }
+        </script>
+    </head>
+    aaaaaaaaaaaaa
+    <body>
+        <script type="text/javascript">
+            book1.a();
+            book1.a();
+
+            book1.a();
+        </script>
+    </body>
+</html>

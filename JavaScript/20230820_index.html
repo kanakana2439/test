@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>リンクの勉強</title>
+        <script type="text/javascript">
+            function openPopup(url){
+                var mywin = open(url, "win1",
+                "width=320,height=380,resizable=no,status=no");
+                mywin.focus();
+            }
+        </script>
+    </head>
+    <body>
+        <p>
+            <a href="https://www.google.com/a"
+            onclick="openPopup('https://www.google.com/'); return false;">
+                test
+            </a>
+        </p>
+        <script type="text/javascript">
+            document.write(navigator.userAgent);
+        </script>
+    </body>
+</html>

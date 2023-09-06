@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charaset="UTF-8">
+        <title>ファンクションの設定</title>
+        <script type="text/javascript">
+            function Book(title,price,isbn){
+                this.title = title;
+                this.price = price;
+                this.isbn = isbn;
+            }
+            // prototypeのプロパティ
+            Book.prototype.tax = 1.05;
+            Book.prototype.amazonUrl = 
+            "https://www.amazon.co.jp/exec/obidos/ASIN"
+            // prototypeのメソッド
+            Book.prototype.withTax = function(){
+                return this.price * this.tax;
+            }
+
+            Book.prototype.makeAmazonUrl = function (){
+                return "<a href=\"" + this.amazonUrl + this.isbn + "\">"
+                    this.title +"<\/a>";
+            }
+            books =new Array();
+
+            books[0] = new Book("できるホームページHTML入門",1580,"4844319302");
+            books[1] = new Book("Web2.0 BOOK",1800, "4844322265");
+        </script>
+    </head>
+    <body>
+        test
+        <script>
+            for(i = 0; i<books.length; i++){
+                document.write(books[i].title);
+                document.write(books[i].makeAmazonUrl()+"、");
+                document.write(books[i].withTax() + "円（税込定価）<br>")
+            }
+            
+        </script>
+    </body>
+</html>
